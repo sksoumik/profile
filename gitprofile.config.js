@@ -12,56 +12,59 @@ const config = {
   },
   social: {
     linkedin: 'sksoumik',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    twitter: 'sksoumik',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: 'sksoumik',
+    dev: '',
+    stackoverflow: '5920567/sksoumik', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://soumik.xyz/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'sadmanks@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Data Science',
+    'Generative AI',
+    'LLMs',
+    'RAGs',
+    'NLP',
+    'Computer Vision',
+    'RDBMS',
+    'Cloud Computing',
+    'Distributed Systems',
+    'MLOps',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Optimizely',
+      position: 'Senior Data Scientist',
+      from: 'January 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.optimizely.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Venturas Ltd.',
+      position: 'Senior AI Engineer (Team Lead)',
+      from: 'June 2021',
+      to: 'December 2023',
+      companyLink: 'https://www.venturas-bd.com/',
+    },
+    {
+      company: 'Chowa Giken Corporation',
+      position: 'Machine Learning Engineer',
+      from: 'September 2019',
+      to: 'June 2021',
+      companyLink: 'https://www.chowagiken.co.jp/',
     },
   ],
   /* certifications: [
@@ -74,40 +77,35 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'North South University',
+      degree: 'Bachelor of Science in Computer Science and Engineering',
       from: '2015',
       to: '2019',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
+    // {
+    //   title: 'Project Name',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //   imageUrl: 'https://via.placeholder.com/250x250',
+    //   link: 'https://example.com',
+    // },
+    // {
+    //   title: 'Project Name',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //   imageUrl: 'https://via.placeholder.com/250x250',
+    //   link: 'https://example.com',
+    // },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +117,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -179,11 +177,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 };
 
 export default config;
